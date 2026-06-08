@@ -1,18 +1,46 @@
-# React + Vite
+# Nexus Operations Terminal (NexusMatrixSystem)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An enterprise-grade infrastructure management dashboard built using **React** and styled with **Tailwind CSS**. This application serves as a central control plane for deploying, tracking, and deprovisioning cryptographic server nodes within a distributed edge-computing network environment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
 
-## React Compiler
+* **Dynamic Node Provisioning Engine:** Allows administrators to register infrastructure assets by assigning host identifiers, network segments, and security policy manifests.
+* **Real-time Infrastructure Registry:** An interactive network mapping table that displays current operational telemetry, including live memory capacity and handshake encryption levels.
+* **Senior-Level Security Guard Clauses:** Robust form validation checking for cryptographic payload requirements and preventing weak encryption sequences.
+* **Emergency Asset Vector:** Instant connection-severing capabilities to isolate compromised node vectors immediately.
+* **Fully Responsive Cyberpunk UI:** Immersive, high-contrast matrix interface featuring custom Tailwind styling, micro-animations, and fluid responsive layouts.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Architecture & State Layer
 
-## Expanding the ESLint configuration
+The component architecture is divided into two distinct, high-fidelity views controlled via an internal routing state manager:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Provision Engine (`terminal` view):** Houses the cryptographic node deployment form and real-time aggregate deployment metrics.
+2.  **Infrastructure Map (`registry` view):** Features a production-grade data table tracking node status, active handshakes (`Hardened TLS` vs `Unverified Bypass`), and simulated live memory utilization metrics.
+
+### Technical Stack & Dependencies
+* **Frontend Library:** React (Hooks: `useState`)
+* **Styling Engine:** Tailwind CSS (Custom color schemes using arbitrary variants, gradients, and animations)
+* **Design Paradigm:** Utility-first utility layout with an emphasis on rich telemetry visualization and high information density.
+
+---
+
+## 📂 Installation & Local Setup
+
+To run this dashboard inside your React repository:
+
+1. Save the code into your components folder as `NexusMatrixSystem.jsx`.
+2. Ensure you have **Tailwind CSS** installed and properly configured in your project.
+3. Import and render the component inside your main configuration entry point:
+
+```javascript
+import NexusMatrixSystem from './components/NexusMatrixSystem';
+
+function App() {
+  return <NexusMatrixSystem />;
+}
+
+export default App;
